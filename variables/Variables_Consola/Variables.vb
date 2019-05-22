@@ -1,4 +1,5 @@
 ﻿Module Variables
+
     Sub Main()
         'Declaraciones
         Dim nombre As String
@@ -16,7 +17,7 @@
         Console.Write("Ingrese su Fecha de Nacimiento (ej: DD/MM/AAAA):")
         nacimiento = Console.ReadLine
         Console.WriteLine(vbCrLf)
-        datospersonales = nombre + " " + apellido + " nació el " + nacimiento + "."
+        datospersonales = nombre & " " & apellido & " nació el " & nacimiento & "."
 
         'Muestro en pantalla los datos
         Console.WriteLine(">>>>>>>Datos Personales<<<<<<<" & vbCrLf)
