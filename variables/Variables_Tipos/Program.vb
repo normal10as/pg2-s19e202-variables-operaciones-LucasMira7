@@ -1,6 +1,7 @@
-ï»¿Module variables_tipos
+Imports System
 
-    Sub Main()
+Module Program
+    Sub Main(args As String())
         Dim NombrePersona, LugarNacimiento, Nacionalidad, NombreCalle As String
         Dim DNI, NroHabitantesNacionales As UInteger
         Dim FechaNacimiento As Date
@@ -23,19 +24,18 @@
         PrecioProducto = 15.5
 
         Console.WriteLine("Nombre de una Persona: " & NombrePersona)
-        Console.WriteLine("NÃºmero de Documento: " & DNI)
+        Console.WriteLine("Número de Documento: " & DNI)
         Console.WriteLine("Lugar de Nacimiento: " & LugarNacimiento)
         Console.WriteLine("Fecha de Nacimiento: " & FechaNacimiento)
         Console.WriteLine("Altura Corporal: " & AlturaCorporal & "cms")
         Console.WriteLine("Nacionalidad: " & Nacionalidad)
-        Console.WriteLine("Temperatura Ambiente: " & TemperaturaAmbiente & "Â°")
+        Console.WriteLine("Temperatura Ambiente: " & TemperaturaAmbiente & "°")
         Console.WriteLine("Nombre de la Calle: " & NombreCalle)
         Console.WriteLine("Altura de la Calle: " & AlturaCalle)
         Console.WriteLine("Distancia entre 2 Ciudades Cualquiera: " & DistanciaEntre2Ciudades & "kms")
         Console.WriteLine("Profundidad del Mar: " & ProfundidadMar & "ms")
         Console.WriteLine("Cantidad de Habitantes del Territorio Nacional: " & NroHabitantesNacionales)
         Console.WriteLine("Peso de un Producto de Supermercado: " & PesoProducto & "kg")
-        Console.WriteLine("Monto de un ArtÃ­culo de Supermercado: " & PrecioProducto)
+        Console.WriteLine("Monto de un Artículo de Supermercado: " & PrecioProducto)
     End Sub
-
 End Module
