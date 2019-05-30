@@ -1,6 +1,6 @@
 Imports System
 
-Module Program
+Module Variables_Tipos
     Sub Main(args As String())
         Dim NombrePersona, LugarNacimiento, Nacionalidad, NombreCalle As String
         Dim DNI, NroHabitantesNacionales As UInteger

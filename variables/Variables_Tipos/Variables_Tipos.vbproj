@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Variables_Tipos</RootNamespace>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject>Sub Main</StartupObject>
   </PropertyGroup>
 
 </Project>
