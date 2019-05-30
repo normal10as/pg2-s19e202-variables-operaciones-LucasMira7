@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Variables_Consola", "Variables_Consola\Variables_Consola.vbproj", "{660BBAA2-9595-47BE-9D71-9FF8C4A81949}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Variables_Consoladfg", "Variables_Consola\Variables_Consoladfg.vbproj", "{660BBAA2-9595-47BE-9D71-9FF8C4A81949}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Variables_Tipos", "Variables_Tipos\Variables_Tipos.vbproj", "{C1D20F74-78CB-4F87-AFA2-C8C5ABA088FF}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Variables_Tiposffg", "Variables_Tipos\Variables_Tiposffg.vbproj", "{C1D20F74-78CB-4F87-AFA2-C8C5ABA088FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65A463BC-4B6A-4ABC-97A6-656ACACA5B5C}
 	EndGlobalSection
 EndGlobal
