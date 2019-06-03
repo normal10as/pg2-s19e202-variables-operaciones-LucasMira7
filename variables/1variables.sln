@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Variables_Consola", "Variables_Consola\Variables_Consola.vbproj", "{54D40378-C2B1-4344-B3F0-51C80DF5F58B}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "1.1Variables_Consola", "Variables_Consola\1.1Variables_Consola.vbproj", "{54D40378-C2B1-4344-B3F0-51C80DF5F58B}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Variables_Tipos", "Variables_Tipos\Variables_Tipos.vbproj", "{640973A8-9D39-4D0A-BB63-743D582FEBCC}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "1.2Variables_Tipos", "Variables_Tipos\1.2Variables_Tipos.vbproj", "{640973A8-9D39-4D0A-BB63-743D582FEBCC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "1.3Concatenación", "Concatenación\1.3Concatenación.vbproj", "{4E44B23E-9693-40BA-8AAF-20132AD6447A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{640973A8-9D39-4D0A-BB63-743D582FEBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{640973A8-9D39-4D0A-BB63-743D582FEBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{640973A8-9D39-4D0A-BB63-743D582FEBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E44B23E-9693-40BA-8AAF-20132AD6447A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E44B23E-9693-40BA-8AAF-20132AD6447A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E44B23E-9693-40BA-8AAF-20132AD6447A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E44B23E-9693-40BA-8AAF-20132AD6447A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
